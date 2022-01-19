@@ -21,10 +21,10 @@ $monAge = 22;
  TEXT;
  echo "<br>";
  // affiche les info utilise methode Nowdoc
-  print<<<"EOT"
-   Mon Nom: $monNom
-   Mon Prenom: $monPrenom
-  Mon Age: $monAge
+  print<<<'EOT'
+   Mon Nom: Afrakla
+   Mon Prenom: abdelaziz
+  Mon Age: 22
  EOT;
             // deference entre Methodes Heredoc et Nowdoc:
             #Heredoc prendre en consideration les variable dans le code. 
